@@ -1,4 +1,4 @@
-# Fastfetch
+# fetchME
 
 [![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/fastfetch-cli/fastfetch/ci.yml)](https://github.com/fastfetch-cli/fastfetch/actions)
 [![GitHub license](https://img.shields.io/github/license/fastfetch-cli/fastfetch)](https://github.com/fastfetch-cli/fastfetch/blob/dev/LICENSE)
@@ -11,7 +11,7 @@
 [![latest packaged version(s)](https://repology.org/badge/latest-versions/fastfetch.svg)](https://repology.org/project/fastfetch/versions)
 [![Packaging status](https://repology.org/badge/tiny-repos/fastfetch.svg)](https://repology.org/project/fastfetch/versions)
 
-Fastfetch is a [neofetch](https://github.com/dylanaraps/neofetch)-like tool for fetching system information and displaying them in a pretty way. It is written mainly in C, with performance and customizability in mind. Currently, Linux, Android, FreeBSD, MacOS and Windows 7+ are supported.
+fetchME is a [neofetch](https://github.com/dylanaraps/neofetch)-like tool for fetching system information and displaying them in a pretty way. It is written mainly in C, with performance and customizability in mind. Currently, Linux, Android, FreeBSD, MacOS and Windows 7+ are supported.
 
 <img src="screenshots/example1.png" width="49%" align="left" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Transparent_Square_Tiles_Texture.png" width="49%" height="16px" align="left" />
@@ -43,7 +43,7 @@ Replace sudo with doas depending on what you use.
 
 [See also if fastfetch has been packaged for your favorite Linux distro](#Packaging).
 
-If fastfetch is not packaged for your distro or an outdated version is packaged, [linuxbrew](https://brew.sh/) is a good alternate: `brew install fastfetch`
+If fetchme is not packaged for your distro or an outdated version is packaged, [linuxbrew](https://brew.sh/) is a good alternate: `brew install fastfetch`
 
 ### macOS
 
@@ -57,17 +57,17 @@ If fastfetch is not packaged for your distro or an outdated version is packaged,
 
 ### Windows
 
-`scoop install fastfetch`
+`scoop install fetchme`
 
 You may also download it directly from [GitHub releases page](https://github.com/fastfetch-cli/fastfetch/releases/latest) and extract the archive.
 
 ### FreeBSD
 
-`pkg install fastfetch`
+`pkg install fetchme`
 
 ### Android (Termux)
 
-`pkg install fastfetch`
+`pkg install fetchme`
 
 ## Build from source
 
@@ -75,11 +75,11 @@ See Wiki: https://github.com/fastfetch-cli/fastfetch/wiki/Building
 
 ## Usage
 
-* Run it with default configuration: `fastfetch`
+* Run it with default configuration: `fetchme`
 * Run it with [all supported modules](https://github.com/fastfetch-cli/fastfetch/wiki/Support+Status#available-modules) and find what you interest: `fastfetch -c all.jsonc`
-* Find all data that fastfetch detects: `fastfetch -s <module> --format json`
-* Display help messages: `fastfetch --help`
-* Generate config file based on command line arguments: `fastfetch --arg1 --arg2 --gen-config`
+* Find all data that fastfetch detects: `fetchme -s <module> --format json`
+* Display help messages: `fetchme --help`
+* Generate config file based on command line arguments: `fetchme --arg1 --arg2 --gen-config`
 
 ## Customization
 
